@@ -1,0 +1,593 @@
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    box-sizing: border-box;
+}
+.header {
+    background-color: rgb(130, 174, 70);
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    height: 19.8px;
+    width: 100%;
+}
+.header ul {
+    list-style: none;
+    margin-left: 190px;
+    margin-right: 190px;
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 0px;
+}
+.header ul li {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-left: 15px;
+    color: white;
+    text-transform: uppercase;
+    flex-grow: 2;
+    font-size: 11px;
+    font-weight: 400;
+}
+#ship {
+    flex-grow: 4;
+}
+.menubar {
+    height: 67.8px;
+    display: inline-flex;
+}
+.menubar .shopname {
+    display: inline;
+    line-height: 67.8px;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+.menubar .shopname a {
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(130, 174, 70);
+    text-decoration: none;
+    transition: 0.3s all ease;
+    margin-left: 15px;
+}
+.menubar .shopname a:hover {
+    color: black;
+}
+.menubar .mainmenu ul {
+    list-style: none;
+    display: inline-flex;
+    text-transform: uppercase;
+    height: 67.8px;
+    line-height: 67.8px;
+    margin-top: 0;
+}
+.menubar .mainmenu ul a {
+    text-decoration: none;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: black;
+    opacity: 1;
+    margin-left: 20;
+    margin-right: 20;
+}
+.menubar .mainmenu {
+    margin-right: 190px;
+    float: right;
+}
+.menubar .mainmenu ul li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+  #slideshow {
+    overflow: hidden;
+    height: 650px;
+    width: 1520px;
+    max-width: 100%;
+  }
+  
+  .slide-wrapper {
+    width: 6080px;
+    -webkit-animation: slide 18s linear infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 650px;
+    width: 1520px;
+  }
+  
+  .slide:nth-child(1) {
+    background: url('img/001.jpg');
+  }
+  
+  .slide:nth-child(2) {
+    background: url('img/002.jpg');
+  }
+  
+  .slide:nth-child(3) {
+    background: url('img/003.jpg');
+  }
+  
+  .slide:nth-child(4) {
+    background: url('img/004.jpg');
+  }
+  .slide-number {
+    font-size: 3vw;
+    color: #fff;
+    font-weight: 400;
+    font-family: "amatic sc",cursive;
+    text-align: center;
+    height: 650px;
+    line-height: 650px;
+    margin-top: 0px;
+  }
+  
+  @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -1520px;}
+    50% {margin-left: -1520px;}
+    60% {margin-left: -3040px;}
+    70% {margin-left: -3040px;}
+    80% {margin-left: -3040px;}
+    90% {margin-left: -3040px;}
+  }
+  .container1 {
+    text-align: center;
+    width: 280px;
+  }
+ .items .circle {
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  border: solid 1px whitesmoke;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+.items .circle > i {
+  font-size: xx-large;
+  align-items: center;
+  padding: 25px 0 0 0px;
+  width: 65px;
+  height: 90px;
+}
+.container1 > p {
+  padding-top: 15px;
+  width: 250px;
+  display: inline-block;
+}
+#text2 {
+  color: #B3B3B3;
+  margin-top: 0;
+  padding-top: 0;
+}
+.items .circle:hover {
+  background-color: #82AE46;
+  box-shadow: 0 0 0 12px #82AE46;
+}
+.items .item1 {
+  background-color: #E4B2D6;
+  box-shadow: 0 0 0 12px #E4B2D6;
+}
+.items .item2 {
+  background-color: #DCC698;
+  box-shadow: 0 0 0 12px #DCC698;
+}
+.items .item3 {
+  background-color: #A2D1E1;
+  box-shadow: 0 0 0 12px #A2D1E1;
+} 
+.items .item4 {
+  background-color: #DCD691;
+  box-shadow: 0 0 0 12px #DCD691;
+}
+.items {
+  display: flex;
+  justify-content: center;
+} 
+.container2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.container2 .sp {
+  height: 530px;
+  width: 380px;
+}
+.container2 .sp .pic {
+  height: 250px;
+  width: 380px;
+}
+.container2 > img {
+  height: 250px;
+  width: 350px;
+}
+.container2 .sp .pic {
+  padding-bottom: 20px;
+  position: relative;
+}
+.container2 .sp .pig {
+  padding-bottom: 20px;
+}
+.container2 .shop {
+  text-align: center;
+  position: relative;
+}
+.container2 .shop p:nth-of-type(1) {
+  color: #82AE46;
+  font-size: 24px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.container2 .shop p:nth-of-type(2) {
+  color: #B3B3B3;
+  font-size: 16px;
+}
+.container2 .shop button {
+  background-color: #82AE46;
+  border-radius: 25px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  border: solid 1px #82AE46;
+}
+.container2 .shop button:hover {
+  background-color: white;
+  color: #82AE46;
+  cursor: pointer;
+}
+.container2 .sp .pic div > button {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  background-color: #82AE46;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  border: solid 1px #82AE46;
+}
+.container2 .shop .pic-shop {
+  position: absolute;
+  height: 250px;
+  bottom: 10px;
+}
+.container2 .sp .shop-text {
+  margin-left: -30px;
+}
+.container2 .sp .pic div > button:hover {
+  cursor: pointer;
+}
+.listshop h4 {
+  color: #82AE46;
+  font-size: 18px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: lighter;
+}
+.listshop .indam {
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  text-transform: capitalize;
+}
+.listshop .chuthuong {
+  color: #B3B3B3;
+  font-size: 16px;
+  text-align: center;
+}
+.listshop {
+  margin-top: 150px;
+}
+.products {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 1100px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.products .sanpham {
+  margin: 10px;
+  border: solid 1px gray;
+  position: relative;
+  height: 280px;
+  text-align: center;
+}
+.products .sanpham .giasp {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 40px;
+}
+.products .sanpham .giasp .tensp {
+  text-transform: uppercase;
+  color: black;
+  font-size: 16px;
+}
+.products .sanpham .giasp .gia {
+  color: #82AE46;
+  margin-top: -10px;
+}
+/* [1] The container */
+.products .zoom {
+  height: 200px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.products .zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.products .zoom:hover img {
+  transform: scale(1.15);
+}
+.countdown {
+  height: 600px;
+}
+.countdown img {
+  object-fit: cover;
+  height: 600px;
+  margin: 0 auto;
+  width: 1520px;
+  display: block;
+  margin-top: 100px;
+}
+.countdown .anh {
+  position: relative;
+}
+.countdown .anh .thongtin {
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  margin-top: 0px;
+  margin-left: 800px;
+}
+.countdown .anh .thongtin .xanhlacay {
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #82AE46;
+}
+.countdown .anh .thongtin .to {
+  color: black;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.countdown .anh .thongtin .ghi {
+  color: #808080;
+  font-size: 18px;
+}
+.countdown .anh .thongtin .masanpham {
+  color: #82AE46;
+  font-size: 24px;
+}
+.countdown .anh .thongtin .giacu {
+  color: #808080;
+  font-size: 18px;
+}
+.countdown .anh .thongtin .giamoi {
+  color: #82AE46;
+  font-size: 18px;
+}
+.countdown .anh .thongtin .chu {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.countdown .anh .thongtin .demnguoc {
+  color: #82AE46;
+  font-size: 40px;
+}
+.comments .xanhlacay {
+  color: #82AE46;
+  font-size: 18px;
+} 
+.comments .indam {
+  color: black;
+  font-size: 36px;
+  text-transform: capitalize;
+}
+.comments .slogan {
+  color: #808080;
+  font-size: 18px;
+}
+.comments {
+  text-align: center;
+  margin-top: 100px;
+}
+.slideshow-container {
+  position: relative;
+  background: white;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #82AE46;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+.quotes {
+  height: 400px;
+  margin-bottom: 150px;
+}
+.quotes .slideshow-container .mySlides .khachhang img {
+  border: solid 1px white;
+  border-radius: 50%;
+  margin-bottom: 50px;
+  height: 100px;
+  width: 100px;
+}
+.logoitems {
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+hr {
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+.logoitems img {
+  display: inline;
+  object-fit: scale-down;
+  height: 50px;
+}
+.logoitems .anhlogo {
+  height: 50px;
+  width: 150px;
+  margin-left: 50px;
+}
+.subcribe {
+  height: 200px;
+  background-color: #F7F6F2;
+  display: flex;
+  align-items: center;
+}
+.subcribe .p1 {
+  margin-left: 200px;
+  margin-right: 100px;
+}
+.subcribe .inputmail {
+  width: 700px;
+}
+.subcribe .chuto {
+  font-size: 30px;
+  color: black;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+}
+.subcribe .chunho {
+  font-size: 16px;
+  color: #808080;
+}
+.subcribe .inputmail input[type=text] {
+  width: 450px;
+  padding: 15px 20px;
+  float: left;
+  border: none;
+}
+.subcribe .inputmail button {
+  float: left;
+  padding: 15px 20px;
+  background-color: #82AE46;
+  color: white;
+  border: none;
+}
+.scroll {
+  margin: 0 auto;
+  border: solid 1px white;
+  border-radius: 50% 50%;
+  margin-top: -30px;
+  height: 60px;
+  width: 60px;
+  background-color: #82AE46;
+  text-align: center;
+}
+.scroll a {
+  text-decoration: none;
+  margin-top: -30px;
+  line-height: 60px;
+  width: 60px;
+  color: white;
+}
+.footer {
+  margin-top: 50px;
+  margin-left: 190px;
+  margin-right: 190px;
+  display: flex;
+  justify-content: left;
+}
+.footer .cot {
+  width: 300px;
+  float: left;
+}
+.mangxahoi {
+  margin-left: 190px;
+}
+.mangxahoi > div {
+  position: relative;
+  border-radius: 50% 50%;
+  background-color:#F0F0F0;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+.mangxahoi div a {
+  height: 45px;
+  line-height: 45px;
+  vertical-align: middle;
+  width: 40px;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  display: inline-block;
+}
