@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quotes</title>
+    <link rel="stylesheet" href="randomquotes.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="canonical" href="/web/tweet-button">
+    <link rel="me" href="https://twitter.com/twitterdev">
+</head>
+<body>
+<div class="body-container">
+    <div class="body-title">
+        <h2>Random Quotes</h2>
+    </div>
+    <div class="getquote">
+        <button class="getquote-button">New quote</button>
+    </div>
+    <div class="quote-container">
+        <div class="quote"></div>
+        <div class="author"></div>
+        <button class="trans-button">Translate</button>
+        <div class="quote-tran">Translated text</div>
+        <div class="share">
+            <button class="share-button">
+                <a class="twitter-share-button" href="file:///C:/Users/HOANG%20TRIEU/Desktop/Frontend/randomquotes.html" data-size="large">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;Tweet</a>
+            </button>
+            <div class="fb-share-button" data-href="https://voz.vn/f/diem-bao.33/" data-layout="button" data-size="large"><a target="_blank" 
+                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fvoz.vn%2Ff%2Fdiem-bao.33%2F&amp;src=sdkpreparse" 
+                class="fb-xfbml-parse-ignore">Chia sẻ</a></div>
+        </div>
+    </div>
+</div>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" 
+src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v8.0&appId=522995571786911&autoLogAppEvents=1" nonce="1w8stOm5"></script>
+<script src="randomquote.js"></script>
+</body>
+</html>
